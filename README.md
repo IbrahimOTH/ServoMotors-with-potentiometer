@@ -6,7 +6,7 @@
 4-potentiometer(5)
 
 Notes :
-* each reisitance control 1 servo 
+* each resistance control 1 servo 
 *  it rotates between 0 - 90
-*  risistance set between 1-1000
+*  resistance set between 1-1000
 
