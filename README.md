@@ -7,6 +7,6 @@
 
 Notes :
 * each reisitance control 1 servo 
-* * it rotates between 0 - 90
-* * * risistance set between 1-1000
+*  it rotates between 0 - 90
+*  risistance set between 1-1000
 
