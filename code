@@ -27,7 +27,6 @@ const int servo5PotPin =A4;
 const int servo5Pin = 10;
 int servo5Value;
 
-//**** servo 1 settings END
 
 void setup() {
   servo1.attach(servo1Pin); 
@@ -40,23 +39,23 @@ void setup() {
 void loop() {
  
   servo1Value = analogRead(servo1PotPin); 
-  servo1Value = map(servo1Value, 0, 1023, 0, 90);
+  servo1Value = map(servo1Value, 0, 1000, 0, 90);
   servo1.write(servo1Value);
 
   servo2Value = analogRead(servo2PotPin); 
-  servo2Value = map(servo2Value, 0, 1023, 0, 90);
+  servo2Value = map(servo2Value, 0, 1000, 0, 90);
   servo2.write(servo2Value);
   
   servo3Value = analogRead(servo3PotPin); 
-  servo3Value = map(servo3Value, 0, 1023, 0, 90);
+  servo3Value = map(servo3Value, 0, 1000, 0, 90);
   servo3.write(servo3Value);
   
   servo4Value = analogRead(servo4PotPin); 
-  servo4Value = map(servo4Value, 0, 1023, 0, 90);
+  servo4Value = map(servo4Value, 0, 1000, 0, 90);
   servo4.write(servo4Value);
   
   servo5Value = analogRead(servo5PotPin); 
-  servo5Value = map(servo5Value, 0, 1023, 0, 90);
+  servo5Value = map(servo5Value, 0, 1000, 0, 90);
   servo5.write(servo5Value);
 
 
